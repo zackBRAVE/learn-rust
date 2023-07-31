@@ -1,11 +1,8 @@
-use crate::garden::vegetables::Asparagus;
+use crate::garden::vegetables;
 
 pub mod garden;
-pub mod guess_game;
 
 fn main() {
-    let plant = Asparagus {};
+    let plant = vegetables::Asparagus {};
     println!("I'm growing {:?}!", plant);
-
-    guess_game::guessing_game();
 }
