@@ -43,6 +43,4 @@ fn vector() {
         SpreadSheetCell::Float(10.12),
         SpreadSheetCell::Text(String::from("red")),
     ];
-
-    println!("{:?}", spreadsheet_vec);
 }
