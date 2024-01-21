@@ -7,7 +7,9 @@ fn _run_basics() {
     basics::traits::run();
 }
 
-fn _run_iters() {}
+fn _run_iters() {
+    iters::iter::run();
+}
 
 pub fn run() {
     // _run_basics();
