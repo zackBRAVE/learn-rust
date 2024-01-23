@@ -3,7 +3,7 @@ struct ImportantExcerpt<'a> {
     part: &'a str,
 }
 
-fn run() {
+pub fn run() {
     let string1 = String::from("abcd");
     let result;
     {
